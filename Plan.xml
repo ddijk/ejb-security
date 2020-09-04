@@ -575,7 +575,7 @@
       <uri>WEB-INF/weblogic.xml</uri>
       <variable-assignment>
         <name>pet</name>
-        <xpath>/weblogic-web-app/security-role-assignment/[role-name="Pearl"]/principal-name</xpath>
+        <xpath>/weblogic-web-app/security-role-assignment/principal-name</xpath>
         <operation>replace</operation>
       </variable-assignment>
       <variable-assignment>
@@ -668,7 +668,7 @@
       <uri>META-INF/weblogic-ejb-jar.xml</uri>
       <variable-assignment>
         <name>pet</name>
-        <xpath>/weblogic-ejb-jar/security-role-assignment/[role-name="Pearl"]/principal-name</xpath>
+        <xpath>/weblogic-ejb-jar/security-role-assignment/principal-name</xpath>
         <operation>replace</operation>
       </variable-assignment>
       <variable-assignment>
