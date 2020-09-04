@@ -1,0 +1,711 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deployment-plan xmlns="http://xmlns.oracle.com/weblogic/deployment-plan" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.oracle.com/weblogic/deployment-plan http://xmlns.oracle.com/weblogic/deployment-plan/1.0/deployment-plan.xsd" global-variables="false">
+  <application-name>myear-ear.ear</application-name>
+  <variable-definition>
+    <variable>
+      <name>CdiDescriptor_Policy_15992153195740</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>CdiDescriptor_ImplicitBeanDiscoveryEnabled_15992153195751</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>SessionDescriptor_DebugEnabled_15992153195762</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>SessionDescriptor_MaxSavePostSize_15992153195763</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>SessionDescriptor_SavePostTimeoutIntervalSecs_15992153195764</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>SessionDescriptor_InvalidationIntervalSecs_15992153195765</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>SessionDescriptor_MaxInMemorySessions_15992153195766</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>SessionDescriptor_CookieMaxAgeSecs_15992153195767</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>SessionDescriptor_SavePostTimeoutSecs_15992153195768</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>SessionDescriptor_TimeoutSecs_15992153195779</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>SessionDescriptor_MonitoringAttributeName_159921531957710</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicApplication_ManagedExecutorServices_159921531957711</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicApplication_ManagedScheduledExecutorServices_159921531957712</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicApplication_ManagedThreadFactories_159921531957713</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicApplication_MaxThreadsConstraints_159921531957714</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicApplication_ApplicationParams_159921531957715</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicApplication_ContextRequests_159921531957716</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicApplication_MinThreadsConstraints_159921531957717</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicApplication_FairShareRequests_159921531957718</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicApplication_ApplicationAdminModeTrigger_159921531957719</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicApplication_ResponseTimeRequests_159921531957820</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicApplication_Capacities_159921531957821</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicApplication_WorkManagers_159921531957822</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFResource_null_Name_159921531958623</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFHarvester_null_Enabled_159921531958624</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFHarvester_null_SamplePeriod_159921531958625</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFHarvester_null_HarvestedTypes_159921531958726</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFHarvester_null_Name_159921531958727</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_SNMPNotifications_159921531958728</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_SMTPNotifications_159921531958729</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_ScriptActions_159921531958730</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_Actions_159921531958831</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_Watches_159921531958832</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_Enabled_159921531958833</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_Severity_159921531958834</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_RESTNotifications_159921531958835</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_JMXNotifications_159921531958836</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_Name_159921531958837</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_ThreadDumpActions_159921531958838</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_LogActions_159921531958839</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_ScaleUpActions_159921531958940</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_LogWatchSeverity_159921531958941</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_HeapDumpActions_159921531958942</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_ImageNotifications_159921531958943</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_ScaleDownActions_159921531958944</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFWatchNotification_null_JMSNotifications_159921531958945</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFInstrumentation_null_Includes_159921531959046</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFInstrumentation_null_Enabled_159921531959047</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFInstrumentation_null_Excludes_159921531959048</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFInstrumentation_null_WLDFInstrumentationMonitors_159921531959049</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WLDFInstrumentation_null_Name_159921531959050</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>PersistenceConfiguration_Version_159921531959151</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>PersistenceConfiguration_PersistenceUnitConfigurations_159921531959252</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>JASPICProvider_AuthConfigProviderName_159921531959853</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>JspDescriptor_Verbose_159921531959854</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>JspDescriptor_Keepgenerated_159921531959855</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>JspDescriptor_PageCheckSeconds_159921531959856</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_ManagedExecutorServices_159921531959957</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_ManagedScheduledExecutorServices_159921531959958</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_JspDescriptors_159921531959959</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_ManagedThreadFactories_159921531959960</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_AsyncDescriptors_159921531959961</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_ContextRoots_159921531959962</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_WlDispatchPolicies_159921531959963</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_Loggings_159921531959964</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_SessionDescriptors_159921531959965</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_ContainerDescriptors_159921531959966</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicWebApp_WorkManagers_159921531959967</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>CdiDescriptor_Policy_159921531959968</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>CdiDescriptor_ImplicitBeanDiscoveryEnabled_159921531959969</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>SecurityRoleAssignment_Pearl_ExternallyDefined_159921531959970</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>SecurityRoleAssignment_Pearl_PrincipalNames_159921531960071</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicEjbJar_ManagedExecutorServices_159921531960372</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicEjbJar_ManagedScheduledExecutorServices_159921531960373</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicEjbJar_ManagedThreadFactories_159921531960374</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicEjbJar_Description_159921531960375</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>WeblogicEjbJar_WorkManagers_159921531960376</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>CdiDescriptor_Policy_159921531960377</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>CdiDescriptor_ImplicitBeanDiscoveryEnabled_159921531960378</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>PersistenceConfiguration_Version_159921531960379</name>
+      <value xsi:nil="true"></value>
+    </variable>
+    <variable>
+      <name>PersistenceConfiguration_PersistenceUnitConfigurations_159921531960380</name>
+      <value xsi:nil="true"></value>
+    </variable>
+  </variable-definition>
+  <module-override>
+    <module-name>myear-ear.ear</module-name>
+    <module-type>ear</module-type>
+    <module-descriptor external="true">
+      <root-element>weblogic-application</root-element>
+      <uri>META-INF/weblogic-application.xml</uri>
+      <variable-assignment>
+        <name>CdiDescriptor_Policy_15992153195740</name>
+        <xpath>/weblogic-application/cdi-descriptor/policy</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>CdiDescriptor_ImplicitBeanDiscoveryEnabled_15992153195751</name>
+        <xpath>/weblogic-application/cdi-descriptor/implicit-bean-discovery-enabled</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>SessionDescriptor_DebugEnabled_15992153195762</name>
+        <xpath>/weblogic-application/session-descriptor/debug-enabled</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>SessionDescriptor_MaxSavePostSize_15992153195763</name>
+        <xpath>/weblogic-application/session-descriptor/max-save-post-size</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>SessionDescriptor_SavePostTimeoutIntervalSecs_15992153195764</name>
+        <xpath>/weblogic-application/session-descriptor/save-post-timeout-interval-secs</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>SessionDescriptor_InvalidationIntervalSecs_15992153195765</name>
+        <xpath>/weblogic-application/session-descriptor/invalidation-interval-secs</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>SessionDescriptor_MaxInMemorySessions_15992153195766</name>
+        <xpath>/weblogic-application/session-descriptor/max-in-memory-sessions</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>SessionDescriptor_CookieMaxAgeSecs_15992153195767</name>
+        <xpath>/weblogic-application/session-descriptor/cookie-max-age-secs</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>SessionDescriptor_SavePostTimeoutSecs_15992153195768</name>
+        <xpath>/weblogic-application/session-descriptor/save-post-timeout-secs</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>SessionDescriptor_TimeoutSecs_15992153195779</name>
+        <xpath>/weblogic-application/session-descriptor/timeout-secs</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>SessionDescriptor_MonitoringAttributeName_159921531957710</name>
+        <xpath>/weblogic-application/session-descriptor/monitoring-attribute-name</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicApplication_ManagedExecutorServices_159921531957711</name>
+        <xpath>/weblogic-application/managed-executor-service</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicApplication_ManagedScheduledExecutorServices_159921531957712</name>
+        <xpath>/weblogic-application/managed-scheduled-executor-service</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicApplication_ManagedThreadFactories_159921531957713</name>
+        <xpath>/weblogic-application/managed-thread-factory</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicApplication_MaxThreadsConstraints_159921531957714</name>
+        <xpath>/weblogic-application/max-threads-constraint</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicApplication_ApplicationParams_159921531957715</name>
+        <xpath>/weblogic-application/application-param</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicApplication_ContextRequests_159921531957716</name>
+        <xpath>/weblogic-application/context-request</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicApplication_MinThreadsConstraints_159921531957717</name>
+        <xpath>/weblogic-application/min-threads-constraint</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicApplication_FairShareRequests_159921531957718</name>
+        <xpath>/weblogic-application/fair-share-request</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicApplication_ApplicationAdminModeTrigger_159921531957719</name>
+        <xpath>/weblogic-application/application-admin-mode-trigger</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicApplication_ResponseTimeRequests_159921531957820</name>
+        <xpath>/weblogic-application/response-time-request</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicApplication_Capacities_159921531957821</name>
+        <xpath>/weblogic-application/capacity</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicApplication_WorkManagers_159921531957822</name>
+        <xpath>/weblogic-application/work-manager</xpath>
+      </variable-assignment>
+    </module-descriptor>
+    <module-descriptor external="false">
+      <root-element>application</root-element>
+      <uri>META-INF/application.xml</uri>
+    </module-descriptor>
+    <module-descriptor external="true">
+      <root-element>wldf-resource</root-element>
+      <uri>META-INF/weblogic-diagnostics.xml</uri>
+      <variable-assignment>
+        <name>WLDFResource_null_Name_159921531958623</name>
+        <xpath>/wldf-resource/name</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFHarvester_null_Enabled_159921531958624</name>
+        <xpath>/wldf-resource/harvester/enabled</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFHarvester_null_SamplePeriod_159921531958625</name>
+        <xpath>/wldf-resource/harvester/sample-period</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFHarvester_null_HarvestedTypes_159921531958726</name>
+        <xpath>/wldf-resource/harvester/harvested-type</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFHarvester_null_Name_159921531958727</name>
+        <xpath>/wldf-resource/harvester/name</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_SNMPNotifications_159921531958728</name>
+        <xpath>/wldf-resource/watch-notification/snmp-notification</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_SMTPNotifications_159921531958729</name>
+        <xpath>/wldf-resource/watch-notification/smtp-notification</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_ScriptActions_159921531958730</name>
+        <xpath>/wldf-resource/watch-notification/script-action</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_Actions_159921531958831</name>
+        <xpath>/wldf-resource/watch-notification/action</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_Watches_159921531958832</name>
+        <xpath>/wldf-resource/watch-notification/watche</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_Enabled_159921531958833</name>
+        <xpath>/wldf-resource/watch-notification/enabled</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_Severity_159921531958834</name>
+        <xpath>/wldf-resource/watch-notification/severity</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_RESTNotifications_159921531958835</name>
+        <xpath>/wldf-resource/watch-notification/rest-notification</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_JMXNotifications_159921531958836</name>
+        <xpath>/wldf-resource/watch-notification/jmx-notification</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_Name_159921531958837</name>
+        <xpath>/wldf-resource/watch-notification/name</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_ThreadDumpActions_159921531958838</name>
+        <xpath>/wldf-resource/watch-notification/thread-dump-action</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_LogActions_159921531958839</name>
+        <xpath>/wldf-resource/watch-notification/log-action</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_ScaleUpActions_159921531958940</name>
+        <xpath>/wldf-resource/watch-notification/scale-up-action</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_LogWatchSeverity_159921531958941</name>
+        <xpath>/wldf-resource/watch-notification/log-watch-severity</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_HeapDumpActions_159921531958942</name>
+        <xpath>/wldf-resource/watch-notification/heap-dump-action</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_ImageNotifications_159921531958943</name>
+        <xpath>/wldf-resource/watch-notification/image-notification</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_ScaleDownActions_159921531958944</name>
+        <xpath>/wldf-resource/watch-notification/scale-down-action</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFWatchNotification_null_JMSNotifications_159921531958945</name>
+        <xpath>/wldf-resource/watch-notification/jms-notification</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFInstrumentation_null_Includes_159921531959046</name>
+        <xpath>/wldf-resource/instrumentation/include</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFInstrumentation_null_Enabled_159921531959047</name>
+        <xpath>/wldf-resource/instrumentation/enabled</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFInstrumentation_null_Excludes_159921531959048</name>
+        <xpath>/wldf-resource/instrumentation/exclude</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFInstrumentation_null_WLDFInstrumentationMonitors_159921531959049</name>
+        <xpath>/wldf-resource/instrumentation/wldf-instrumentation-monitor</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WLDFInstrumentation_null_Name_159921531959050</name>
+        <xpath>/wldf-resource/instrumentation/name</xpath>
+      </variable-assignment>
+    </module-descriptor>
+    <module-descriptor external="true">
+      <root-element>persistence-configuration</root-element>
+      <uri>myear-ejb.jar!/META-INF/persistence-configuration.xml</uri>
+      <variable-assignment>
+        <name>PersistenceConfiguration_Version_159921531959151</name>
+        <xpath>/persistence-configuration/version</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>PersistenceConfiguration_PersistenceUnitConfigurations_159921531959252</name>
+        <xpath>/persistence-configuration/persistence-unit-configuration</xpath>
+      </variable-assignment>
+    </module-descriptor>
+    <module-descriptor external="false">
+      <root-element>persistence</root-element>
+      <uri>myear-ejb.jar!/META-INF/persistence.xml</uri>
+    </module-descriptor>
+  </module-override>
+  <module-override>
+    <module-name>myear-web.war</module-name>
+    <module-type>war</module-type>
+    <module-descriptor external="false">
+      <root-element>weblogic-web-app</root-element>
+      <uri>WEB-INF/weblogic.xml</uri>
+      <variable-assignment>
+        <name>JASPICProvider_AuthConfigProviderName_159921531959853</name>
+        <xpath>/weblogic-web-app/jaspic-provider/auth-config-provider-name</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>JspDescriptor_Verbose_159921531959854</name>
+        <xpath>/weblogic-web-app/jsp-descriptor/verbose</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>JspDescriptor_Keepgenerated_159921531959855</name>
+        <xpath>/weblogic-web-app/jsp-descriptor/keepgenerated</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>JspDescriptor_PageCheckSeconds_159921531959856</name>
+        <xpath>/weblogic-web-app/jsp-descriptor/page-check-seconds</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_ManagedExecutorServices_159921531959957</name>
+        <xpath>/weblogic-web-app/managed-executor-service</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_ManagedScheduledExecutorServices_159921531959958</name>
+        <xpath>/weblogic-web-app/managed-scheduled-executor-service</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_JspDescriptors_159921531959959</name>
+        <xpath>/weblogic-web-app/jsp-descriptor</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_ManagedThreadFactories_159921531959960</name>
+        <xpath>/weblogic-web-app/managed-thread-factory</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_AsyncDescriptors_159921531959961</name>
+        <xpath>/weblogic-web-app/async-descriptor</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_ContextRoots_159921531959962</name>
+        <xpath>/weblogic-web-app/context-root</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_WlDispatchPolicies_159921531959963</name>
+        <xpath>/weblogic-web-app/wl-dispatch-policy</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_Loggings_159921531959964</name>
+        <xpath>/weblogic-web-app/logging</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_SessionDescriptors_159921531959965</name>
+        <xpath>/weblogic-web-app/session-descriptor</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_ContainerDescriptors_159921531959966</name>
+        <xpath>/weblogic-web-app/container-descriptor</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicWebApp_WorkManagers_159921531959967</name>
+        <xpath>/weblogic-web-app/work-manager</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>CdiDescriptor_Policy_159921531959968</name>
+        <xpath>/weblogic-web-app/cdi-descriptor/policy</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>CdiDescriptor_ImplicitBeanDiscoveryEnabled_159921531959969</name>
+        <xpath>/weblogic-web-app/cdi-descriptor/implicit-bean-discovery-enabled</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>SecurityRoleAssignment_Pearl_ExternallyDefined_159921531959970</name>
+        <xpath>/weblogic-web-app/security-role-assignment/[role-name="Pearl"]/externally-defined</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>SecurityRoleAssignment_Pearl_PrincipalNames_159921531960071</name>
+        <xpath>/weblogic-web-app/security-role-assignment/[role-name="Pearl"]/principal-name</xpath>
+      </variable-assignment>
+    </module-descriptor>
+    <module-descriptor external="false">
+      <root-element>web-app</root-element>
+      <uri>WEB-INF/web.xml</uri>
+    </module-descriptor>
+  </module-override>
+  <module-override>
+    <module-name>myear-ejb.jar</module-name>
+    <module-type>ejb</module-type>
+    <module-descriptor external="true">
+      <root-element>weblogic-ejb-jar</root-element>
+      <uri>META-INF/weblogic-ejb-jar.xml</uri>
+      <variable-assignment>
+        <name>WeblogicEjbJar_ManagedExecutorServices_159921531960372</name>
+        <xpath>/weblogic-ejb-jar/managed-executor-service</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicEjbJar_ManagedScheduledExecutorServices_159921531960373</name>
+        <xpath>/weblogic-ejb-jar/managed-scheduled-executor-service</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicEjbJar_ManagedThreadFactories_159921531960374</name>
+        <xpath>/weblogic-ejb-jar/managed-thread-factory</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicEjbJar_Description_159921531960375</name>
+        <xpath>/weblogic-ejb-jar/description</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>WeblogicEjbJar_WorkManagers_159921531960376</name>
+        <xpath>/weblogic-ejb-jar/work-manager</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>CdiDescriptor_Policy_159921531960377</name>
+        <xpath>/weblogic-ejb-jar/cdi-descriptor/policy</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>CdiDescriptor_ImplicitBeanDiscoveryEnabled_159921531960378</name>
+        <xpath>/weblogic-ejb-jar/cdi-descriptor/implicit-bean-discovery-enabled</xpath>
+      </variable-assignment>
+    </module-descriptor>
+    <module-descriptor external="false">
+      <root-element>ejb-jar</root-element>
+      <uri>META-INF/ejb-jar.xml</uri>
+    </module-descriptor>
+    <module-descriptor external="true">
+      <root-element>persistence-configuration</root-element>
+      <uri>META-INF/persistence-configuration.xml</uri>
+      <variable-assignment>
+        <name>PersistenceConfiguration_Version_159921531960379</name>
+        <xpath>/persistence-configuration/version</xpath>
+      </variable-assignment>
+      <variable-assignment>
+        <name>PersistenceConfiguration_PersistenceUnitConfigurations_159921531960380</name>
+        <xpath>/persistence-configuration/persistence-unit-configuration</xpath>
+      </variable-assignment>
+    </module-descriptor>
+    <module-descriptor external="false">
+      <root-element>persistence</root-element>
+      <uri>META-INF/persistence.xml</uri>
+    </module-descriptor>
+  </module-override>
+  <config-root>/Users/isc75529/appservers/fmw_12.2.1.3.0_wls_quick_Disk1_1of1/wls12213/domain_quartz/./config/deployments/myear-ear.ear/plan</config-root>
+</deployment-plan>
