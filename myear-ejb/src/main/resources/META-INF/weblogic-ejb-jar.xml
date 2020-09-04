@@ -2,13 +2,8 @@
 <weblogic-ejb-jar xmlns="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar"
                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                   xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar http://xmlns.oracle.com/weblogic/weblogic-ejb-jar/1.5/weblogic-ejb-jar.xsd">
-
-    <!--  <run-as-role-assignment>-->
-    <!--    <role-name>Pearl</role-name>-->
-    <!--    <run-as-principal-name>politie_medewerker</run-as-principal-name>-->
-    <!--  </run-as-role-assignment>-->
     <security-role-assignment>
         <role-name>Pearl</role-name>
-        <principal-name>politie_medewerker</principal-name>
+        <principal-name>vervang</principal-name>
     </security-role-assignment>
 </weblogic-ejb-jar>

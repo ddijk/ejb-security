@@ -3,6 +3,10 @@
   <application-name>myear-ear.ear</application-name>
   <variable-definition>
     <variable>
+      <name>pet</name>
+      <value>politie_medewerker</value>
+    </variable>
+    <variable>
       <name>CdiDescriptor_Policy_15992153195740</name>
       <value xsi:nil="true"></value>
     </variable>
@@ -570,6 +574,11 @@
       <root-element>weblogic-web-app</root-element>
       <uri>WEB-INF/weblogic.xml</uri>
       <variable-assignment>
+        <name>pet</name>
+        <xpath>/weblogic-web-app/security-role-assignment/[role-name="Pearl"]/principal-name</xpath>
+        <operation>replace</operation>
+      </variable-assignment>
+      <variable-assignment>
         <name>JASPICProvider_AuthConfigProviderName_159921531959853</name>
         <xpath>/weblogic-web-app/jaspic-provider/auth-config-provider-name</xpath>
       </variable-assignment>
@@ -657,6 +666,11 @@
     <module-descriptor external="true">
       <root-element>weblogic-ejb-jar</root-element>
       <uri>META-INF/weblogic-ejb-jar.xml</uri>
+      <variable-assignment>
+        <name>pet</name>
+        <xpath>/weblogic-ejb-jar/security-role-assignment/[role-name="Pearl"]/principal-name</xpath>
+        <operation>replace</operation>
+      </variable-assignment>
       <variable-assignment>
         <name>WeblogicEjbJar_ManagedExecutorServices_159921531960372</name>
         <xpath>/weblogic-ejb-jar/managed-executor-service</xpath>
