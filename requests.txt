@@ -2,3 +2,4 @@ http://localhost:7001/myear-web/wep/index.html
 http://localhost:7001/myear-web/res/war
 
 curl -u dick:admin1234 http://localhost:7001/myear-web/res/war
+curl -u dick:admin1234 http://localhost:7001/myear-web/res/war/sec
