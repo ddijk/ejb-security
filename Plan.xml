@@ -287,14 +287,6 @@
       <value xsi:nil="true"></value>
     </variable>
     <variable>
-      <name>SecurityRoleAssignment_Pearl_ExternallyDefined_159921531959970</name>
-      <value xsi:nil="true"></value>
-    </variable>
-    <variable>
-      <name>SecurityRoleAssignment_Pearl_PrincipalNames_159921531960071</name>
-      <value xsi:nil="true"></value>
-    </variable>
-    <variable>
       <name>WeblogicEjbJar_ManagedExecutorServices_159921531960372</name>
       <value xsi:nil="true"></value>
     </variable>
@@ -645,14 +637,6 @@
       <variable-assignment>
         <name>CdiDescriptor_ImplicitBeanDiscoveryEnabled_159921531959969</name>
         <xpath>/weblogic-web-app/cdi-descriptor/implicit-bean-discovery-enabled</xpath>
-      </variable-assignment>
-      <variable-assignment>
-        <name>SecurityRoleAssignment_Pearl_ExternallyDefined_159921531959970</name>
-        <xpath>/weblogic-web-app/security-role-assignment/[role-name="Pearl"]/externally-defined</xpath>
-      </variable-assignment>
-      <variable-assignment>
-        <name>SecurityRoleAssignment_Pearl_PrincipalNames_159921531960071</name>
-        <xpath>/weblogic-web-app/security-role-assignment/[role-name="Pearl"]/principal-name</xpath>
       </variable-assignment>
     </module-descriptor>
     <module-descriptor external="false">

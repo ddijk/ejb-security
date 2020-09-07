@@ -5,7 +5,7 @@
 
     <assembly-descriptor>
         <security-role>
-            <role-name>Pearl</role-name>
+            <role-name>PEARL</role-name>
         </security-role>
     </assembly-descriptor>
 </ejb-jar>

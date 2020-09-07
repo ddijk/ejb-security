@@ -3,7 +3,7 @@
                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                   xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar http://xmlns.oracle.com/weblogic/weblogic-ejb-jar/1.5/weblogic-ejb-jar.xsd">
     <security-role-assignment>
-        <role-name>Pearl</role-name>
+        <role-name>PEARL</role-name>
         <principal-name>vervang</principal-name>
     </security-role-assignment>
 </weblogic-ejb-jar>

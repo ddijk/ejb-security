@@ -10,6 +10,6 @@ public class MySecurityBean {
     SecurityContext securityContext;
 
     public String isUserInRole() {
-        return "is user in role Pearl?" + securityContext.isUserInRole("Pearl");
+        return "is user in role Pearl?" + securityContext.isUserInRole("PEARL");
     }
 }

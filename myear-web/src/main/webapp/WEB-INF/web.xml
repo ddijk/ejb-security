@@ -14,7 +14,7 @@
         </web-resource-collection>
         <auth-constraint>
             <description/>
-            <role-name>Pearl</role-name>
+            <role-name>PEARL</role-name>
         </auth-constraint>
         <user-data-constraint>
             <description/>
@@ -26,6 +26,6 @@
     </login-config>
     <security-role>
         <description/>
-        <role-name>Pearl</role-name>
+        <role-name>PEARL</role-name>
     </security-role>
 </web-app>
