@@ -5,7 +5,7 @@
 
     <assembly-descriptor>
         <security-role>
-            <role-name>PEARL</role-name>
+            <role-name>opal</role-name>
         </security-role>
     </assembly-descriptor>
 </ejb-jar>
