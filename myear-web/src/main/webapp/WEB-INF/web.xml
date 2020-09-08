@@ -14,7 +14,7 @@
         </web-resource-collection>
         <auth-constraint>
             <description/>
-            <role-name>opal</role-name>
+            <role-name>OPaL</role-name>
         </auth-constraint>
         <user-data-constraint>
             <description/>
@@ -26,6 +26,6 @@
     </login-config>
     <security-role>
         <description/>
-        <role-name>opal</role-name>
+        <role-name>OPaL</role-name>
     </security-role>
 </web-app>

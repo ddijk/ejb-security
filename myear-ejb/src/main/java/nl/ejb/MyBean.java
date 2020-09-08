@@ -11,7 +11,7 @@ public class MyBean {
     @Context
     SecurityContext securityContext;
 
-    @RolesAllowed("opal")
+    @RolesAllowed("OPaL")
     public String greeting() {
         return "hallo2ejb-jar.xml";
     }
