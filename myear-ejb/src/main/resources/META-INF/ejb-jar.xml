@@ -3,9 +3,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.1"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://www.oracle.com/webfolder/technetwork/jsc/xml/ns/javaee/ejb-jar_3_1.xsd">
 
+    <enterprise-beans>
+        <session>
+            <ejb-name>MyBean</ejb-name>
+<!--            <security-role-ref>-->
+<!--                <role-name>Pearl</role-name>-->
+<!--            </security-role-ref>-->
+        </session>
+    </enterprise-beans>
     <assembly-descriptor>
         <security-role>
             <role-name>OPaL</role-name>
+        </security-role>
+        <security-role>
+            <role-name>Pearl</role-name>
         </security-role>
     </assembly-descriptor>
 </ejb-jar>
