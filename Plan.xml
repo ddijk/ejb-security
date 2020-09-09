@@ -35,6 +35,11 @@
         <xpath>/weblogic-ejb-jar/security-role-assignment[role-name="OPaL"]/principal-name</xpath>
         <operation>replace</operation>
       </variable-assignment>
+      <variable-assignment>
+        <name>pet</name>
+        <xpath>/weblogic-ejb-jar/security-role-assignment[role-name="Pearl"]/principal-name</xpath>
+        <operation>replace</operation>
+      </variable-assignment>
     </module-descriptor>
     <module-descriptor external="false">
       <root-element>ejb-jar</root-element>

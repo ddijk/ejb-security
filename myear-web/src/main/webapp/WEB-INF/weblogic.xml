@@ -4,6 +4,10 @@
         <role-name>OPaL</role-name>
         <principal-name>vervang</principal-name>
     </security-role-assignment>
+<!--    <security-role-assignment>-->
+<!--        <role-name>Pearl</role-name>-->
+<!--        <principal-name>vervang</principal-name>-->
+<!--    </security-role-assignment>-->
     <jsp-descriptor>
         <keepgenerated>true</keepgenerated>
         <debug>true</debug>
