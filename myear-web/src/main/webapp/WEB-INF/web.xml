@@ -15,6 +15,7 @@
         <auth-constraint>
             <description/>
             <role-name>OPaL</role-name>
+            <role-name>Pearl</role-name>
         </auth-constraint>
         <user-data-constraint>
             <description/>
@@ -25,7 +26,9 @@
         <auth-method>BASIC</auth-method>
     </login-config>
     <security-role>
-        <description/>
         <role-name>OPaL</role-name>
+    </security-role>
+    <security-role>
+        <role-name>Pearl</role-name>
     </security-role>
 </web-app>

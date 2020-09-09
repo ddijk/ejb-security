@@ -6,4 +6,8 @@
         <role-name>OPaL</role-name>
         <principal-name>vervang</principal-name>
     </security-role-assignment>
+    <security-role-assignment>
+        <role-name>Pearl</role-name>
+        <principal-name>vervang</principal-name>
+    </security-role-assignment>
 </weblogic-ejb-jar>
